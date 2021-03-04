@@ -1,0 +1,77 @@
+html{ font-size: 62.5%;}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+
+}
+.main-content{
+  height: 100vh;
+  width: 100vw;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(/img/thumbimg_4846097045thumbejpg.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+  h1{
+    font-size: 6.5rem;
+    color:white
+  }
+  p{
+    font-size: 2rem;
+    color:white
+  }
+
+  main button{
+    width:14rem;
+    height:4rem;
+    font-size: 2.5rem;
+    background-color:#8abe93 ;
+    border:none;
+    border-radius:15px;
+    color:white;
+    margin:2rem;
+    cursor: pointer;
+  }
+
+  main button:hover{
+  animation-name: background-color;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+  }
+  @keyframes background-color{
+    100% {
+      background-color: #7c8791;
+    }
+  }
+  main{ display:flex;
+     justify-content: center;
+    flex-direction: column;
+    align-items:center;}
+  
+    main .books{
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    
+
+  }
+  .subtitle-books{
+    font-size: 5rem;
+    margin-top:5%;
+  }
+  #books-containers{
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  main figure img{
+    width: 25rem;
+    height:100%
+  }
