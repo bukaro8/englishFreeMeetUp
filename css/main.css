@@ -68,7 +68,7 @@ main {
   align-items:center;
 }
 
-main .books {
+main .books  {
   width: 80%;
   height: 80vh;
   display: flex;
@@ -92,6 +92,11 @@ main .books {
 .subtitle-books {
   font-size: 5rem;
   margin: 5%;
+  color: white;
+}
+.subtitle-discord{
+  font-size: 2rem;
+  color: white;
 }
 
 #books-containers {
@@ -113,11 +118,37 @@ main figure img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: linear-gradient(-45deg, #657a4d, #898caa, #163844, #23d5ab);
+  background: linear-gradient(-45deg, #657a4d, #383a50, #9e8c27, #1b3b34);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
 }
-
+.invitation-box{
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+.background{
+  background: linear-gradient(-45deg, #86f00c, #898caa, #02bbff, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+}
 /* Media Querys*/
 @media screen and (max-width:930px) {
   .botton-container{min-height: 100rem;}
